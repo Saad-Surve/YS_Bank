@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vw;
+    background-color: #DFF6FF;
+    border-bottom: 6px #DFF6FF outset;
+}
+#login{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: white;
+    height: 40vw;
+    box-shadow: 3px 3px 5px 3px #06283D;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 2vw;
+    padding-bottom: 1vw;
+}
+label{
+    padding: 0.5vw 0px;
+    font-family: 'Abyssinica SIL', serif;;
+}
+#login span{
+    font-family: 'Abyssinica SIL', serif;;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+form input{
+    padding: 0.6vw ;
+    font-size: 2vw;
+    text-align: center;
+    border-radius: 10px;
+}
+#login a{
+    padding-top: 1vw;
+    font-size: 1.5vw;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px gray inset;
+    /* border-top: 5px gray inset; */
+    background-color: #222127;
+    color: aliceblue;
+}
+footer span{
+    padding:0.2vw 0px;
+    font-size: 1vw;
+}
+
+#submit{
+    border: none;
+    font-size: 2.5vw;
+    padding: 1vw;
+    /* font-family: 'Abyssinica SIL', serif; */
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #06283D;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #DFF6FF;
+    transition: 0.4s ease-in-out;
+    color: #06283D;
+    border: 4px #06283D solid;
+    
+}
+main a{
+    font-family: 'Abyssinica SIL', serif;;
+    text-decoration: none;
+    color: #256D85;
+    font-style: italic;
+}
+#emp{
+    padding-top: 5vw;
+    width: 90%;
+    /* margin: auto; */
+    text-align: right;
+
+}
+#emp a:hover{
+    text-decoration: underline;
+    transition: 0.6s ease-in-out;
+}
+ 
