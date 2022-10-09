@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/customer_home.css">
+    <title>Home Page</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+        <script src="../js/customer_home.js"></script>
+</head>
+
+<body>
+    <header>
+        <span id="name"><a href="../index.html">YS Bank</a></span>
+        <nav>
+            <a href="../index.html" CLASS="links">Log out</a>
+        </nav>
+    </header>
+    <main>
+        <section id="nav_vertical">
+            <div class="nav_links" onclick="profile()">Profile</div>
+            <div class="nav_links" onclick="account()">Account Info</div>
+            <div class="nav_links" onclick="services()">Services</div>
+            <div class="nav_links" onclick="transactions()">Transactions</div>
+            <div class="nav_links" onclick="contact()">Contact Us</div>
+        </section>
+        <section id="main-area">
+            <div id="profile">
+                <div class="heading">Profile:</div>
+                <!-- <br> -->
+                <div class="table">
+                    <div><span class="span1">Name:</span><span id="name_ans" class="span2">Saad</span></div>
+                    <div><span class="span1">Date of Birth:</span><span id="dob_ans" class="span2">17/02/2004</span>
+                    </div>
+                    <div><span class="span1">Address:</span><span id="add_ans" class="span2">B/002, Wafa Tower, Sharifa
+                            Road, Mumbra</span></div>
+                    <div><span class="span1">Nationality:</span><span id="nat_ans" class="span2">Indian</span></div>
+                    <div><span class="span1">Gender:</span><span id="gender_ans" class="span2">Male</span></div>
+                    <div><span class="span1">Age:</span><span id="age_ans" class="span2">18</span></div>
+                    <div><span class="span1">PAN:</span><span id="pan_ans" class="span2">PIHPS2313</span></div>
+                    <div><span class="span1">Contact Number:</span><span id="con_ans" class="span2">8355989770</span>
+                    </div>
+                    <div id="spcdiv"><span class="span1">Email ID:</span><span id="email_ans"
+                            class="span2">saadsurve1317@gmail.com</span></div>
+                </div>
+            </div>
+            <div id="account">
+                <div class="heading">Account Information:</div>
+                <!-- <br> -->
+                <div class="table">
+                    <div><span class="span1">Account Name:</span><span id="acc_name_ans" class="span2">Saad Surve</span>
+                    </div>
+                    <div><span class="span1">Type of Account:</span><span id="type_ans" class="span2">Savings</span>
+                    </div>
+                    <div><span class="span1">Account Number:</span><span id="acc_no_ans"
+                            class="span2">2210313130375</span></div>
+                    <div><span class="span1">Branch:</span><span id="branch_ans" class="span2">Mumbra</span></div>
+                    <div><span class="span1">Branch address:</span><span id="branch_add_ans" class="span2">Kausa</span>
+                    </div>
+                    <div><span class="span1">IFSC Code:</span><span id="ifsc_ans" class="span2">DCBIN00081</span></div>
+                    <div><span class="span1">Account Balance:</span><span id="acc_bal_ans" class="span2"> &#8377
+                            10,00,000</span></div>
+                </div>
+            </div>
+            </div>
+            <div id="transactions">Transactions</div>
+            <div id="services">
+                <div id="headingser">Hello, Saad!</div>
+                <div id="ser1">
+                    <div class="ser">
+                        <div class="ser2">Savings account <img src="../assets/services_1.jpg" alt=""></div>
+                        <div class="ser2">Fixed Deposit <img src="../assets/services_2.png" alt=""></div>
+                        <div class="ser2">Cards <img src="../assets/services_3.png" alt=""></div>
+                    </div>
+                    <div class="ser">
+                        <div class="ser2">Personal loan <img src="../assets/services_4.png" alt=""></div>
+                        <div class="ser2">Vehicle loan <img src="../assets/services_5.jpg" alt=""></div>
+                        <div class="ser2">Home loan <img src="../assets/services_6.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact">
+                <div class="heading">Contact us:</div>
+                <form>
+                    <label>Type of Query:</label>
+                    <input type="text" name="type" id="" placeholder="Upto 100 words">
+                    <label>Subject:</label>
+                    <input type="text" name="subject" id="" placeholder="Upto 100 words">
+                    <label>Enter your query:</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Upto 100 words"></textarea>
+                    <input type="submit"> 
+                </form>
+                OR
+                <a href="mailto:saadsurve1317@gmail.com">Email us the problem.</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

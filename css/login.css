@@ -62,6 +62,12 @@ footer span{
     font-size: 1vw;
 }
 
+main a{
+    font-family: 'Abyssinica SIL', serif;;
+    text-decoration: none;
+    color: #256D85;
+    font-style: italic;
+}
 #submit{
     border: none;
     font-size: 2.5vw;
@@ -70,7 +76,9 @@ footer span{
     font-family: 'Montserrat', sans-serif;
     border-radius: 30px;
     font-weight: bold;
+    text-align: center;
     color: white;
+    font-style: normal;
     background-color: #06283D;
     cursor: pointer;
 }
@@ -80,12 +88,6 @@ footer span{
     color: #06283D;
     border: 4px #06283D solid;
     
-}
-main a{
-    font-family: 'Abyssinica SIL', serif;;
-    text-decoration: none;
-    color: #256D85;
-    font-style: italic;
 }
 #emp{
     padding-top: 5vw;
