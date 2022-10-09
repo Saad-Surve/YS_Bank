@@ -13,7 +13,7 @@ header{
     align-items: center;
     flex-direction: column;
     border-right: #06283D 4px solid;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 .nav_links{
     text-align: center;
@@ -39,7 +39,7 @@ main{
     display: flex;
     /* height: 100%; */
     font-family: 'Abyssinica SIL', serif;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 .table{
     display: flex;
