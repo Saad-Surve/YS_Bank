@@ -9,10 +9,11 @@ header{
     width: 20%;
     background-color: #DFF6FF;
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
     flex-direction: column;
     border-right: #06283D 4px solid;
+    border: 2px red solid;
 }
 .nav_links{
     text-align: center;
@@ -38,7 +39,7 @@ main{
     display: flex;
     /* height: 100%; */
     font-family: 'Abyssinica SIL', serif;
-    /* border: 2px red solid; */
+    border: 2px red solid;
 }
 .table{
     display: flex;
@@ -111,7 +112,7 @@ main{
 }
 .ser2{
     /* border: 2px red solid; */
-    width: 30%;
+    width: 28%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +131,7 @@ main{
 }
 .ser2 img{
     border-radius: 30px;
-    padding: 1vw;
+    padding: 0.5vw;
     max-width: 100%;
 }
 #contact{
