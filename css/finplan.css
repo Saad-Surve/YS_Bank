@@ -258,7 +258,7 @@ input[type=submit]:hover {
 .fields{
     display: flex;
     width: 100%;
-
+    border-bottom:4px gray solid
 }
 .fddetails{
     width: 50%;

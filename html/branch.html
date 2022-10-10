@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branch</title>
+    <link rel="stylesheet" href="../css/branch.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat&display=swap" rel="stylesheet">    <script src="../js/branch.js"></script>
+    
+</head>
+<body>
+    <header>
+        <span id="name"><a href="index.html">YS Bank</a></span>
+        <nav>
+            <a href="about.html" class="links">About Us</a><a href="branch.html" class="links">Branch Details</a><a href="finplan.html" class="links">Financial planning calculator</a><a href="employee_login.html" class="links">Login</a>
+        </nav>
+    </header>
+    <main>
+        <div id="i">
+
+            <form>
+                    
+                        <h1>WELCOME!</h1>
+    
+                    <label for="state">State:</label>
+                    <br>
+                    <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
+                    <br>
+                    <label for="City">City:</label>
+                    <br>
+                    <select id ="state" class="form-control" required></select>
+                    <script language="javascript">print_state("sts");</script>
+                    <br>
+    
+                    <div id="b1">
+                        <button>
+                            Submit
+                        </button>
+                    </div>
+                    
+                
+            </form>
+            <script src="branch.js"></script>
+        </div>
+    </main>
+    
+    <footer>
+        Made with <span id="heart">&nbsp &#10084 &nbsp</span> by Saad and Yusuf
+    </footer>
+
+</body>
+</html>
