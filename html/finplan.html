@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,69 @@
     <title>Financial Planning</title>
     <link rel="stylesheet" href="../css/header.css">
     <link
-    href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat&family=Roboto&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Dancing+Script:wght@700&family=Great+Vibes&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="../css/finplan.css">
+        <script src="../js/finplan.js"></script>
 </head>
+
 <body>
     <header>
         <span id="name"><a href="../index.html">YS Bank</a></span>
         <nav>
-            <a href="about.html" class="links">About Us</a><a href="branch.html" class="links">Branch Details</a><a href="finplan.html" class="links">Financial planning calculator</a><a href="../index.html" CLASS="links">Home</a>
+            <a href="about.html" class="links">About Us</a><a href="branch.html" class="links">Branch Details</a><a
+                href="finplan.html" class="links">Financial planning calculator</a><a href="../index.html"
+                CLASS="links">Home</a>
         </nav>
     </header>
+    <main>
+        <div id="heading">Welcome to A Better Financial Future!</div>
+        <section id ="options">
+            <div id="op1"> <img src="../assets/finplan_1.png" alt="" srcset=""> <div class="opd1">Click for investing one time lumpsum amount and getting amazing returns</div></div>
+            <div id="op2"> <img src="../assets/finplan_2.jpg" alt="" srcset=""> <div class="opd1">Click for investing monthly reasonable amounts and getting fabulous returns</div></div>
+        </section>
+        <section id="working">
+            <div id="fd">
+                <div class="tag">For large amounts, FD returns a sizeable return on investment</div>
+                <form name="f1">
+                  <div class="input"><div class="label">Enter amount you want to invest:</div>
+                    <input type="text" name="principle" required></div>
+                    <div class="input"><div class="label">Enter years you want to stay invested:</div>
+                    <input type="text" name="period" required></div>
+                    <button type="button" onclick="calcfd()" class="submit">Submit</button>
+                </form>
+            </div>
+            
+            <div id="mf">
+                <div id="tagmf">If safety and reliability is the need, Mutual Funds is the way to go</div>
+                <form>
+                  <div class="inputmf"><div class="labelmf">Enter amount you want to fetch:</div>
+                    <input type="text" id="principlemf"></div>
+                    <div class="inputmf"><div class="labelmf">Enter years after which you want the returns:</div>
+                    <input type="text" id="periodmf"></div>
+                    <button type="button" onclick="calc()" class="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section id="answers">
+            <div id="tablefd">
+                <div class="fields"><span class="fddetails">Amount you want to invest:</span><span id="invamt" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Duration you wish to invest:</span><span id="dur" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Maturity Date:</span><span id="mtdate" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Maturity amount:</span><span id="mtamt" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Return on Investment</span><span id="roi" class="ans"></span></div>
+            </div>
+            <div id="tablemd">
+                <div class="fields"><span class="fddetails">Amount you want to invest:</span><span id="invamt" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Duration you wish to invest:</span><span id="dur" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Maturity Date:</span><span id="mtdate" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Maturity amount:</span><span id="mtamt" class="ans"></span></div>
+                <div class="fields"><span class="fddetails">Return on Investment</span><span id="roi" class="ans"></span></div>
+            </div>
+        </section>
+    </main>
 </body>
+<footer>
+    Made with <span id="heart">&nbsp &#10084 &nbsp</span> by Saad and Yusuf
+</footer>
 </html>

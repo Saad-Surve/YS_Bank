@@ -1,0 +1,270 @@
+main {
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #DFF6FF;
+}
+
+#options {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0px;
+    border-bottom: 3px #06283D solid;
+    /* height: 40vw; */
+}
+
+#op1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vw;
+    width: 40%;
+    border: 3px #06283D solid;
+    margin: 2vw;
+    font-size: 2vw;
+    border-radius: 30px;
+    text-align: center;
+    font-style: italic;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+#heading {
+    font-size: 3vw;
+    padding-top: 2vw;
+    font-family: Montserrat, sans-serif;
+    /* text-decoration: dashed; */
+    font-weight: bold;
+}
+
+#op1 img {
+    border-radius: 30px;
+    width: 70%;
+}
+
+#op2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vw;
+    width: 40%;
+    border: 3px #06283D solid;
+    margin: 2vw;
+    font-size: 2vw;
+    border-radius: 30px;
+    font-style: italic;
+    background-color: whitesmoke;
+    text-align: center;
+    cursor: pointer;
+}
+
+#op2 img {
+    padding: 1.5vw;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+.opd1 {
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.opd1:hover {
+    text-decoration: underline;
+    color: indigo;
+}
+
+#working {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    padding: 1vw;
+}
+
+#fd {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 0.5vw;
+}
+
+.tag {
+    font-family: 'Abyssinica SIL', serif;
+    /* font-weight: bold; */
+    color: #06283D;
+    width: 65%;
+    background-color: white;
+    animation-name: tag;
+    border: 4px #06283D solid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.input {
+    width: 100%;
+    padding: 1vw;
+}
+
+@keyframes tag {
+    from {
+        border: 4px #06283D solid;
+        color: #06283D;
+    }
+
+    to {
+        border: 4px darkgreen solid;
+        color: darkgreen;
+        transform: scale(1.1, 1.1);
+    }
+}
+
+#fd form {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    /* width: 60%; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#fd form input {
+    font-size: 3vw;
+    padding: 0.5vw;
+}
+
+.label {
+    padding: 0.5vw 0px;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #06283D;
+    border-radius: 30px;
+    color: #DFF6FF;
+    cursor: pointer;
+    width: 40%;
+}
+
+input[type=submit]:hover {
+    transition: 0.6s ease-in-out;
+    background-color: white;
+    color: #06283D;
+    border: 4px #06283D solid;
+}
+
+#mf {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 1.5vw;
+}
+
+#tagmf {
+    font-family: 'Abyssinica SIL', serif;
+    /* font-weight: bold; */
+    color: #06283D;
+    width: 65%;
+    background-color: white;
+    animation-name: tag;
+    border: 4px #06283D solid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.inputmf {
+    width: 100%;
+    padding: 1vw;
+}
+.submit{
+    padding: 1vw;
+    width: 40%;
+    font-size: 2.2vw;
+    border-radius: 30px;
+    border:none;
+    background-color: #06283D;
+    color: #DFF6FF;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: #06283D;
+    border: 4px #06283D solid;
+    transition: 0.6s ease-in-out;
+}
+#mf form {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    /* width: 60%; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#mf form input {
+    font-size: 3vw;
+    padding: 0.5vw;
+}
+
+.labelmf {
+    padding: 0.5vw 0px;
+}
+
+#answers{
+    width: 100%;
+    padding: 1vw;
+    font-size: 2.5vw;
+}
+#tablefd{
+    width: 100%;
+    background-color: white;
+    padding: 1vw;
+    
+}
+#tablemd{
+    width: 100%;
+    background-color: white;
+    padding: 1vw;
+    
+}
+.fields{
+    display: flex;
+    width: 100%;
+
+}
+.fddetails{
+    width: 50%;
+    padding: 1vw;
+     background-color: rgb(187, 187, 187);
+}
+.ans{
+    padding: 1vw;
+}
