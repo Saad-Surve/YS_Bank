@@ -24,10 +24,10 @@
             <div id="fromSec">
                 <label for="from">From</label>
                 <select name="from" id="from">
-                    <option value="USA" selected>United States</option>
-                    <option value="IND">India</option>
-                    <option value="DEU">Euro</option>
-                    <option value="GBR">Pound Sterling</option>
+                    <option value="USA" data-value1="USD" selected>United States</option>
+                    <option value="IND" data-value1="INR">India</option>
+                    <option value="DEU" data-value1="EUR">Euro</option>
+                    <option value="GBR" data-value1="gbp">Pound Sterling</option>
                 </select>
                 <img id="flag1" src="https://flagcdn.com/w320/us.png" alt="US Flag">
             </div>
@@ -35,16 +35,18 @@
             <div id="toSec">
                 <label for="To">To</label>
                 <select name="to" id="to">
-                    <option value="USA">United States</option>
-                    <option value="IND" selected>India</option>
-                    <option value="DEU">Euro</option>
-                    <option value="GBR">Pound Sterling</option>
+                    <option value="USA" data-value2="USD">United States</option>
+                    <option value="IND" data-value2="INR" selected >India</option>
+                    <option value="DEU" data-value2="EUR">Euro</option>
+                    <option value="GBR" data-value2="gbp">Pound Sterling</option>
                 </select>
-                <img id ="flag2" src="https://flagcdn.com/w320/in.png" alt="India Flag">
+                <img id="flag2" src="https://flagcdn.com/w320/in.png" alt="India Flag">
             </div>
-            
         </div>
-        
+        <div id="s2d3">
+            <p id="msg">1 USD = 8O INR</p>
+        </div>
+
     </div>
     <script src="/js/buycurrencies.js"></script>
 </body>
