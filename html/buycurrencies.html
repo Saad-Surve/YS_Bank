@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/buycurrencies.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id=s1>
+        <h1>Invest In Foreign Currencies</h1>
+    </div>
+    <div id="s2">
+        <div id="s2d1">
+            <h2>Get Rates</h2>
+            <form>
+                <label for="amt">Enter Amount: </label>
+                <input type="tel" id="amt">
+            </form>
+        </div>
+        <div id="s2d2">
+            <div id="fromSec">
+                <label for="from">From</label>
+                <select name="from" id="from">
+                    <option value="USA" data-value1="USD" selected>United States</option>
+                    <option value="IND" data-value1="INR">India</option>
+                    <option value="DEU" data-value1="EUR">Euro</option>
+                    <option value="GBR" data-value1="gbp">Pound Sterling</option>
+                </select>
+                <img id="flag1" src="https://flagcdn.com/w320/us.png" alt="US Flag">
+            </div>
+            <button id="cnvrt-btn">Convert</button>
+            <div id="toSec">
+                <label for="To">To</label>
+                <select name="to" id="to">
+                    <option value="USA" data-value2="USD">United States</option>
+                    <option value="IND" data-value2="INR" selected >India</option>
+                    <option value="DEU" data-value2="EUR">Euro</option>
+                    <option value="GBR" data-value2="gbp">Pound Sterling</option>
+                </select>
+                <img id="flag2" src="https://flagcdn.com/w320/in.png" alt="India Flag">
+            </div>
+        </div>
+        <div id="s2d3">
+            <p id="msg">1 USD = 8O INR</p>
+        </div>
+
+    </div>
+    <script src="../js/buycurrencies.js"></script>
+</body>
+
+</html>
